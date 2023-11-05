@@ -14,22 +14,35 @@
 </head>
 
 <body>
-
-	<h1 class="text-success">bienvenido estamos probando una rama nueva</h1>
-	<table id="table"></table>
-	<button id="btn">?</button>
-
-
-
-
-
-
-	<select multiple="multiple" size="10" name="duallistbox" id="miDualListbox">
+<h1 class="text-success">bienvenido estamos probando una rama nueva</h1>
+	<center>
+		<div class="container ">
+			<a href="http://localhost/inv/index.php/mnt">mantenedor</a><br>
+			<a href="http://localhost/inv/index.php/cuser">cliente</a><br>
+			<a href="http://localhost/inv/index.php/tuser">trabajador</a>
+		</div>
+		<div class="container col col.md-6">
+		<table id="table"></table>
+		</div>
+		<div class="container col col.md-6">
+		<button id="btn">prueba</button>
+		</div>
+		<div class="container col col.md-6">
+		<select multiple="multiple" size="10" name="duallistbox" id="miDualListbox">
 		<option value="1">Opción 1</option>
 		<option value="2">Opción 2</option>
 		<option value="3">Opción 3</option>
 		<!-- Agrega más opciones aquí -->
 	</select>
+		</div>
+
+
+
+
+
+
+
+
 
 
 	<script src="<?= base_url('assets/js/jquery.js') ?>"></script>
