@@ -1,26 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
-	<link rel="stylesheet" href="<?= base_url('assets/bootstrap-table/dist/bootstrap-table.css') ?>">
-	<link rel="stylesheet" href="<?= base_url('assets/alertifyjs/css/alertify.min.css') ?>">
-	<link rel="stylesheet" href="<?= base_url('assets/bootstrap-duallistbox/dist/bootstrap-duallistbox.css') ?>">
-
-
-</head>
-
-<body>
 <h1 class="text-success">bienvenido estamos probando una rama nueva</h1>
 	<center>
-		<div class="container ">
-			<a href="http://localhost/inv/index.php/mnt">mantenedor</a><br>
-			<a href="http://localhost/inv/index.php/cuser">cliente</a><br>
-			<a href="http://localhost/inv/index.php/tuser">trabajador</a>
-		</div>
+
 		<div class="container col col.md-6">
 		<table id="table"></table>
 		</div>
@@ -45,10 +26,7 @@
 
 
 
-	<script src="<?= base_url('assets/js/jquery.js') ?>"></script>
-	<script src="<?= base_url('assets/bootstrap-table/dist/bootstrap-table.js') ?>"></script>
-	<script src="<?= base_url('assets/alertifyjs/alertify.min.js') ?>"></script>
-	<script src="<?= base_url('assets/bootstrap-duallistbox/dist/jquery.bootstrap-duallistbox.js') ?>"></script>
+<?php $this->load->view('componentes/foot'); ?>
 
 	<script>
 		$('#btn').on('click', function() {
@@ -76,6 +54,3 @@
 			$('#miDualListbox').bootstrapDualListbox();
 		});
 	</script>
-</body>
-
-</html>

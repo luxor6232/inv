@@ -14,13 +14,13 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-          Dropdown
+          Mantenedor
         </a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="http://localhost/inv/index.php/tuser">Trabajador</a>
+          <a class="dropdown-item" href="http://localhost/inv/index.php/cuser">Cliente</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">mantenedor aleatorio</a>
         </div>
       </li>
       <li class="nav-item">
